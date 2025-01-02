@@ -49,7 +49,7 @@ export class RegisterComponent {
     return (control: AbstractControl) => {
       const sourceControl = control.get(source)!;
       const targetControl = control.get(target)!;
-      if (targetControl.errors && !targetControl.errors.mismatch) {
+      if (targetControl.errors && !targetControl.errors['mismatch']) {
         return null;
       }
       if (sourceControl.value !== targetControl.value) {
