@@ -3,7 +3,7 @@ import { MatButtonModule } from '@angular/material/button';
 import { MatIconModule } from '@angular/material/icon';
 import { MatTooltipModule } from '@angular/material/tooltip';
 import { RouterLink } from '@angular/router';
-import { AuthService, User } from '@core/authentication';
+import { AuthService, User } from '@ng-matero/core/authentication';
 import { TranslateModule } from '@ngx-translate/core';
 
 @Component({

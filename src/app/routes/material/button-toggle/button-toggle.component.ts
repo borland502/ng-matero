@@ -4,7 +4,7 @@ import { MatButtonToggleModule } from '@angular/material/button-toggle';
 import { MatCardModule } from '@angular/material/card';
 import { MatIconModule } from '@angular/material/icon';
 
-import { BreadcrumbComponent } from '@shared';
+import { BreadcrumbComponent } from '@ng-matero/shared';
 
 @Component({
   selector: 'app-button-toggle',

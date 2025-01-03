@@ -15,7 +15,7 @@ import { MatInputModule } from '@angular/material/input';
 import { MatListModule } from '@angular/material/list';
 import { MatSelectModule } from '@angular/material/select';
 
-import { BreadcrumbComponent } from '@shared';
+import { BreadcrumbComponent } from '@ng-matero/shared';
 
 const defaultConfig = new MatBottomSheetConfig();
 

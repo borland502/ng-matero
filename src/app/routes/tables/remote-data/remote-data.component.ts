@@ -9,7 +9,7 @@ import { MatSelectModule } from '@angular/material/select';
 import { MtxGridColumn, MtxGridModule } from '@ng-matero/extensions/grid';
 import { finalize } from 'rxjs';
 
-import { PageHeaderComponent } from '@shared';
+import { PageHeaderComponent } from '@ng-matero/shared';
 import { TablesRemoteDataService } from './remote-data.service';
 
 @Component({

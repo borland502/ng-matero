@@ -1,7 +1,7 @@
 import { Routes } from '@angular/router';
-import { authGuard } from '@core';
-import { AdminLayoutComponent } from '@theme/admin-layout/admin-layout.component';
-import { AuthLayoutComponent } from '@theme/auth-layout/auth-layout.component';
+import { authGuard } from '@ng-matero/core';
+import { AdminLayoutComponent } from '@ng-matero/theme/admin-layout/admin-layout.component';
+import { AuthLayoutComponent } from '@ng-matero/theme/auth-layout/auth-layout.component';
 import { DashboardComponent } from './routes/dashboard/dashboard.component';
 import { Error403Component } from './routes/sessions/403.component';
 import { Error404Component } from './routes/sessions/404.component';

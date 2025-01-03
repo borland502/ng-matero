@@ -9,7 +9,7 @@ import { MatFormFieldModule } from '@angular/material/form-field';
 import { MtxSelectModule } from '@ng-matero/extensions/select';
 import { Observable } from 'rxjs';
 
-import { PageHeaderComponent } from '@shared';
+import { PageHeaderComponent } from '@ng-matero/shared';
 import { DataService, Person } from '../data.service';
 import { FormsSelectEditComponent } from './edit/edit.component';
 

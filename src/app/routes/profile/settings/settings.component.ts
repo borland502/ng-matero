@@ -15,7 +15,7 @@ import { MatIconModule } from '@angular/material/icon';
 import { MatInputModule } from '@angular/material/input';
 import { MatSelectModule } from '@angular/material/select';
 
-import { ControlsOf, IProfile } from '@shared';
+import { ControlsOf, IProfile } from '@ng-matero/shared';
 
 @Component({
   selector: 'app-profile-settings',

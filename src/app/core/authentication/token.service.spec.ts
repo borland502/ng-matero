@@ -1,6 +1,9 @@
 import { TestBed } from '@angular/core/testing';
-import { TokenFactory, TokenService, currentTimestamp } from '@core/authentication';
-import { LocalStorageService, MemoryStorageService } from '@shared/services/storage.service';
+import { TokenFactory, TokenService, currentTimestamp } from '@ng-matero/core/authentication';
+import {
+  LocalStorageService,
+  MemoryStorageService,
+} from '@ng-matero/shared/services/storage.service';
 import { tap } from 'rxjs';
 
 describe('TokenService', () => {

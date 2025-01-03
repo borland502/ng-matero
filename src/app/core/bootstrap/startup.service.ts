@@ -1,5 +1,5 @@
 import { Injectable, inject } from '@angular/core';
-import { AuthService, User } from '@core/authentication';
+import { AuthService, User } from '@ng-matero/core/authentication';
 import { NgxPermissionsService, NgxRolesService } from 'ngx-permissions';
 import { switchMap, tap } from 'rxjs';
 import { Menu, MenuService } from './menu.service';

@@ -18,8 +18,8 @@ import { RouterLink } from '@angular/router';
 import { MtxProgressModule } from '@ng-matero/extensions/progress';
 import { Subscription } from 'rxjs';
 
-import { AppSettings, SettingsService } from '@core';
-import { BreadcrumbComponent } from '@shared';
+import { AppSettings, SettingsService } from '@ng-matero/core';
+import { BreadcrumbComponent } from '@ng-matero/shared';
 import { DashboardService } from './dashboard.service';
 
 @Component({

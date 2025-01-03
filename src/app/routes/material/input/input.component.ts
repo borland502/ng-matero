@@ -7,7 +7,7 @@ import { MatFormFieldModule } from '@angular/material/form-field';
 import { MatIconModule } from '@angular/material/icon';
 import { MatInputModule } from '@angular/material/input';
 
-import { BreadcrumbComponent } from '@shared';
+import { BreadcrumbComponent } from '@ng-matero/shared';
 
 const USD_TO_JPY = 110.29;
 

@@ -18,7 +18,7 @@ import { TranslateModule } from '@ngx-translate/core';
 import { NgxPermissionsModule } from 'ngx-permissions';
 import { Subscription, filter } from 'rxjs';
 
-import { MenuChildrenItem, MenuService } from '@core';
+import { MenuChildrenItem, MenuService } from '@ng-matero/core';
 import { TopmenuState } from './topmenu.component';
 
 @Component({

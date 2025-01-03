@@ -2,7 +2,7 @@ import { HttpHandler, HttpInterceptor, HttpRequest, HttpResponse } from '@angula
 import { Injectable, inject } from '@angular/core';
 import { finalize, tap } from 'rxjs';
 
-import { MessageService } from '@shared';
+import { MessageService } from '@ng-matero/shared';
 
 @Injectable()
 export class LoggingInterceptor implements HttpInterceptor {

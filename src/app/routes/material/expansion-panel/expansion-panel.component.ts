@@ -2,7 +2,7 @@ import { Component } from '@angular/core';
 import { MatButtonModule } from '@angular/material/button';
 import { MatExpansionModule } from '@angular/material/expansion';
 
-import { BreadcrumbComponent } from '@shared';
+import { BreadcrumbComponent } from '@ng-matero/shared';
 
 @Component({
   selector: 'app-expansion-panel',

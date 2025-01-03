@@ -1,5 +1,5 @@
 import { ChangeDetectionStrategy, Component } from '@angular/core';
-import { PageHeaderComponent } from '@shared';
+import { PageHeaderComponent } from '@ng-matero/shared';
 
 @Component({
   selector: 'app-dashboard',

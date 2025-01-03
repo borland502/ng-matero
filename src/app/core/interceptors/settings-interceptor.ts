@@ -1,6 +1,6 @@
 import { HttpHandler, HttpInterceptor, HttpRequest } from '@angular/common/http';
 import { Injectable, inject } from '@angular/core';
-import { SettingsService } from '@core';
+import { SettingsService } from '@ng-matero/core';
 
 @Injectable()
 export class SettingsInterceptor implements HttpInterceptor {

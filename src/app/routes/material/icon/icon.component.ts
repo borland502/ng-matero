@@ -4,7 +4,7 @@ import { MatCardModule } from '@angular/material/card';
 import { MatIconModule } from '@angular/material/icon';
 import { MatSnackBar } from '@angular/material/snack-bar';
 
-import { BreadcrumbComponent } from '@shared';
+import { BreadcrumbComponent } from '@ng-matero/shared';
 
 @Component({
   selector: 'app-icon',

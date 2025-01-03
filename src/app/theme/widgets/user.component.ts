@@ -6,7 +6,7 @@ import { Router, RouterLink } from '@angular/router';
 import { TranslateModule } from '@ngx-translate/core';
 import { debounceTime, tap } from 'rxjs';
 
-import { AuthService, SettingsService, User } from '@core';
+import { AuthService, SettingsService, User } from '@ng-matero/core';
 
 @Component({
   selector: 'app-user',

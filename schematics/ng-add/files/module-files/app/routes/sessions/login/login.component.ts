@@ -4,7 +4,7 @@ import { FormBuilder, Validators } from '@angular/forms';
 import { Router } from '@angular/router';
 import { filter } from 'rxjs';
 
-import { AuthService } from '@core/authentication';
+import { AuthService } from '@ng-matero/core/authentication';
 
 @Component({
   selector: 'app-login',

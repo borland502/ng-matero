@@ -1,5 +1,5 @@
 import { Component, OnInit, AfterViewInit, inject } from '@angular/core';
-import { PreloaderService, SettingsService } from '@core';
+import { PreloaderService, SettingsService } from '@ng-matero/core';
 
 @Component({
   selector: 'app-root',

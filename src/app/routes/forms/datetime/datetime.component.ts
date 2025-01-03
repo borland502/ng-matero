@@ -19,7 +19,7 @@ import * as _moment from 'moment';
 import { default as _rollupMoment } from 'moment';
 import { Subscription } from 'rxjs';
 
-import { PageHeaderComponent } from '@shared';
+import { PageHeaderComponent } from '@ng-matero/shared';
 
 const moment = _rollupMoment || _moment;
 

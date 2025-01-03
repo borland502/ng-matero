@@ -18,16 +18,16 @@
     "typeRoots": ["node_modules/@types"],
     "lib": ["ES2022", "dom"],
     "paths": {
-      "@core": ["app/core"],
-      "@core/*": ["app/core/*"],
-      "@shared": ["app/shared"],
-      "@shared/*": ["app/shared/*"],
-      "@theme": ["app/theme"],
-      "@theme/*": ["app/theme/*"],
+      "@ng-matero/core": ["app/core"],
+      "@ng-matero/core/*": ["app/core/*"],
+      "@ng-matero/shared": ["app/shared"],
+      "@ng-matero/shared/*": ["app/shared/*"],
+      "@ng-matero/theme": ["app/theme"],
+      "@ng-matero/theme/*": ["app/theme/*"],
       "@testing": ["testing"],
       "@testing/*": ["testing/*"],
-      "@env": ["environments"],
-      "@env/*": ["environments/*"]
+      "@ng-matero/env": ["environments"],
+      "@ng-matero/env/*": ["environments/*"]
     },
     "useDefineForClassFields": false,
     "esModuleInterop": true

@@ -13,13 +13,13 @@ import { TranslateHttpLoader } from '@ngx-translate/http-loader';
 import { NgxPermissionsModule } from 'ngx-permissions';
 import { provideToastr } from 'ngx-toastr';
 
-import { BASE_URL, appInitializerProviders, httpInterceptorProviders } from '@core';
-import { environment } from '@env/environment';
-import { PaginatorI18nService } from '@shared';
+import { BASE_URL, appInitializerProviders, httpInterceptorProviders } from '@ng-matero/core';
+import { environment } from '@ng-matero/env/environment';
+import { PaginatorI18nService } from '@ng-matero/shared';
 import { routes } from './app.routes';
 import { FormlyConfigModule } from './formly-config';
 
-import { LoginService } from '@core/authentication/login.service';
+import { LoginService } from '@ng-matero/core/authentication/login.service';
 import { FakeLoginService } from './fake-login.service';
 
 // Required for AOT compilation

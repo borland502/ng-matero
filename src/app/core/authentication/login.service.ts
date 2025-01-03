@@ -2,7 +2,7 @@ import { HttpClient } from '@angular/common/http';
 import { Injectable, inject } from '@angular/core';
 import { map } from 'rxjs';
 
-import { Menu } from '@core';
+import { Menu } from '@ng-matero/core';
 import { Token, User } from './interface';
 
 @Injectable({

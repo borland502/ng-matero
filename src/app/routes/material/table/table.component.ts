@@ -7,7 +7,7 @@ import { MatTableModule } from '@angular/material/table';
 import { BehaviorSubject, Observable, merge } from 'rxjs';
 import { map } from 'rxjs/operators';
 
-import { BreadcrumbComponent } from '@shared';
+import { BreadcrumbComponent } from '@ng-matero/shared';
 
 export interface UserData {
   name: string;

@@ -1,7 +1,7 @@
 import { waitForAsync, ComponentFixture, TestBed } from '@angular/core/testing';
 import { NoopAnimationsModule } from '@angular/platform-browser/animations';<% if(standalone) { %>
-import { PageHeaderComponent } from '@shared';<% } else { %>
-import { SharedModule } from '@shared/shared.module';<% } %>
+import { PageHeaderComponent } from '@ng-matero/shared';<% } else { %>
+import { SharedModule } from '@ng-matero/shared/shared.module';<% } %>
 
 import { <%= classify(pageName) %>Component } from './<%= dasherize(name) %>.component';
 

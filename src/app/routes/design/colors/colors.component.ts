@@ -1,7 +1,7 @@
 import { KeyValue, KeyValuePipe } from '@angular/common';
 import { Component, OnInit } from '@angular/core';
 
-import { PageHeaderComponent, M3_COLORS } from '@shared';
+import { PageHeaderComponent, M3_COLORS } from '@ng-matero/shared';
 
 @Component({
   selector: 'app-design-colors',

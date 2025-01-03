@@ -3,7 +3,7 @@ import { MatButtonModule } from '@angular/material/button';
 import { MatPseudoCheckbox } from '@angular/material/core';
 import { MatIconModule } from '@angular/material/icon';
 import { MatMenuModule } from '@angular/material/menu';
-import { SettingsService } from '@core';
+import { SettingsService } from '@ng-matero/core';
 import { TranslatePipe } from '@ngx-translate/core';
 
 @Component({

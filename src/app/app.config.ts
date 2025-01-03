@@ -14,10 +14,10 @@ import { InMemoryWebApiModule } from 'angular-in-memory-web-api';
 import { NgxPermissionsModule } from 'ngx-permissions';
 import { provideToastr } from 'ngx-toastr';
 
-import { BASE_URL, appInitializerProviders, httpInterceptorProviders } from '@core';
-import { environment } from '@env/environment';
-import { PaginatorI18nService } from '@shared';
-import { InMemDataService } from '@shared/in-mem/in-mem-data.service';
+import { BASE_URL, appInitializerProviders, httpInterceptorProviders } from '@ng-matero/core';
+import { environment } from '@ng-matero/env/environment';
+import { PaginatorI18nService } from '@ng-matero/shared';
+import { InMemDataService } from '@ng-matero/shared/in-mem/in-mem-data.service';
 import { routes } from './app.routes';
 import { FormlyConfigModule } from './formly-config';
 

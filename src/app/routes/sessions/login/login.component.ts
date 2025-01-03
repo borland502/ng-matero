@@ -11,7 +11,7 @@ import { MtxButtonModule } from '@ng-matero/extensions/button';
 import { TranslateModule } from '@ngx-translate/core';
 import { filter } from 'rxjs/operators';
 
-import { AuthService } from '@core/authentication';
+import { AuthService } from '@ng-matero/core/authentication';
 
 @Component({
   selector: 'app-login',

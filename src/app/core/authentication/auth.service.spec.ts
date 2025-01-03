@@ -1,8 +1,11 @@
 import { HttpRequest, provideHttpClient, withInterceptorsFromDi } from '@angular/common/http';
 import { HttpTestingController, provideHttpClientTesting } from '@angular/common/http/testing';
 import { fakeAsync, TestBed, tick } from '@angular/core/testing';
-import { AuthService, LoginService, TokenService, User } from '@core/authentication';
-import { LocalStorageService, MemoryStorageService } from '@shared/services/storage.service';
+import { AuthService, LoginService, TokenService, User } from '@ng-matero/core/authentication';
+import {
+  LocalStorageService,
+  MemoryStorageService,
+} from '@ng-matero/shared/services/storage.service';
 import { Observable, skip } from 'rxjs';
 
 describe('AuthService', () => {

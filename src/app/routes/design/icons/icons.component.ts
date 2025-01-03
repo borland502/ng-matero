@@ -3,7 +3,7 @@ import { Component, OnInit } from '@angular/core';
 import { MatCardModule } from '@angular/material/card';
 import { MatIconModule } from '@angular/material/icon';
 
-import { MAT_ICONS, PageHeaderComponent } from '@shared';
+import { MAT_ICONS, PageHeaderComponent } from '@ng-matero/shared';
 
 @Component({
   selector: 'app-design-icons',

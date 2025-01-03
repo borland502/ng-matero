@@ -2,7 +2,7 @@ import { Component } from '@angular/core';
 import { MatCardModule } from '@angular/material/card';
 import { RouterLink } from '@angular/router';
 
-import { PageHeaderComponent } from '@shared';
+import { PageHeaderComponent } from '@ng-matero/shared';
 
 @Component({
   selector: 'app-utilities-css-grid',

@@ -1,6 +1,6 @@
 import { Directive, inject } from '@angular/core';
 import { NavigationEnd, Router } from '@angular/router';
-import { MenuService } from '@core';
+import { MenuService } from '@ng-matero/core';
 import { filter } from 'rxjs';
 import { NavAccordionItemDirective } from './nav-accordion-item.directive';
 

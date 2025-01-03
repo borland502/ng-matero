@@ -1,10 +1,13 @@
 import { HttpTestingController, provideHttpClientTesting } from '@angular/common/http/testing';
 import { TestBed } from '@angular/core/testing';
 import { NgxPermissionsModule, NgxPermissionsService, NgxRolesService } from 'ngx-permissions';
-import { LocalStorageService, MemoryStorageService } from '@shared/services/storage.service';
-import { admin, TokenService } from '@core/authentication';
-import { MenuService } from '@core/bootstrap/menu.service';
-import { StartupService } from '@core/bootstrap/startup.service';
+import {
+  LocalStorageService,
+  MemoryStorageService,
+} from '@ng-matero/shared/services/storage.service';
+import { admin, TokenService } from '@ng-matero/core/authentication';
+import { MenuService } from '@ng-matero/core/bootstrap/menu.service';
+import { StartupService } from '@ng-matero/core/bootstrap/startup.service';
 import { provideHttpClient, withInterceptorsFromDi } from '@angular/common/http';
 
 describe('StartupService', () => {

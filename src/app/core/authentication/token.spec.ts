@@ -1,4 +1,4 @@
-import { base64, currentTimestamp, JwtToken } from '@core/authentication';
+import { base64, currentTimestamp, JwtToken } from '@ng-matero/core/authentication';
 
 describe('Token', () => {
   describe('JwtToken', () => {

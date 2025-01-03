@@ -7,7 +7,7 @@ import { NgxPermissionsService, NgxRolesService } from 'ngx-permissions';
 import { Subject } from 'rxjs';
 import { takeUntil } from 'rxjs/operators';
 
-import { PageHeaderComponent } from '@shared';
+import { PageHeaderComponent } from '@ng-matero/shared';
 
 @Component({
   selector: 'app-permissions-role-switching',

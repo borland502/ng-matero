@@ -6,7 +6,7 @@ import { MatCardModule } from '@angular/material/card';
 import { Router } from '@angular/router';
 import { NgxPermissionsService, NgxRolesService } from 'ngx-permissions';
 
-import { PageHeaderComponent } from '@shared';
+import { PageHeaderComponent } from '@ng-matero/shared';
 
 @Component({
   selector: 'app-permissions-route-guard',

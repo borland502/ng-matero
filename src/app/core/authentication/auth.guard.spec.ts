@@ -3,8 +3,11 @@ import { provideHttpClientTesting } from '@angular/common/http/testing';
 import { Component } from '@angular/core';
 import { TestBed, inject } from '@angular/core/testing';
 import { Router, provideRouter } from '@angular/router';
-import { AuthService, TokenService, authGuard } from '@core/authentication';
-import { LocalStorageService, MemoryStorageService } from '@shared/services/storage.service';
+import { AuthService, TokenService, authGuard } from '@ng-matero/core/authentication';
+import {
+  LocalStorageService,
+  MemoryStorageService,
+} from '@ng-matero/shared/services/storage.service';
 
 @Component({
   template: '',

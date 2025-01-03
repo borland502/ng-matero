@@ -9,7 +9,7 @@ import {
 import { Router } from '@angular/router';
 import { TranslateModule } from '@ngx-translate/core';
 
-import { MenuService } from '@core';
+import { MenuService } from '@ng-matero/core';
 import { BreadcrumbComponent } from '../breadcrumb/breadcrumb.component';
 
 @Component({

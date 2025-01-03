@@ -16,7 +16,7 @@ import { TranslateModule } from '@ngx-translate/core';
 import { NgxPermissionsModule } from 'ngx-permissions';
 import { Subscription, filter } from 'rxjs';
 
-import { Menu, MenuService } from '@core';
+import { Menu, MenuService } from '@ng-matero/core';
 import { TopmenuPanelComponent } from './topmenu-panel.component';
 
 export interface TopmenuState {

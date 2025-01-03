@@ -1,7 +1,7 @@
 import { HttpErrorResponse, HttpHandler, HttpInterceptor, HttpRequest } from '@angular/common/http';
 import { Injectable, inject } from '@angular/core';
 import { Router } from '@angular/router';
-import { TokenService } from '@core/authentication';
+import { TokenService } from '@ng-matero/core/authentication';
 import { catchError, tap, throwError } from 'rxjs';
 import { BASE_URL } from './base-url-interceptor';
 

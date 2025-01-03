@@ -17,7 +17,7 @@ import { MatSelectModule } from '@angular/material/select';
 import { TranslateModule, TranslateService } from '@ngx-translate/core';
 import { Subscription } from 'rxjs';
 
-import { ControlsOf, IProfile, PageHeaderComponent } from '@shared';
+import { ControlsOf, IProfile, PageHeaderComponent } from '@ng-matero/shared';
 
 @Component({
   selector: 'app-forms-elements',

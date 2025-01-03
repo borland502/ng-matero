@@ -7,8 +7,11 @@ import {
 import { HttpTestingController, provideHttpClientTesting } from '@angular/common/http/testing';
 import { TestBed } from '@angular/core/testing';
 import { Router } from '@angular/router';
-import { TokenService, User } from '@core/authentication';
-import { LocalStorageService, MemoryStorageService } from '@shared/services/storage.service';
+import { TokenService, User } from '@ng-matero/core/authentication';
+import {
+  LocalStorageService,
+  MemoryStorageService,
+} from '@ng-matero/shared/services/storage.service';
 import { STATUS } from 'angular-in-memory-web-api';
 import { BASE_URL } from './base-url-interceptor';
 import { TokenInterceptor } from './token-interceptor';
