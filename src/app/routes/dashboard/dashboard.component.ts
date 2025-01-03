@@ -28,7 +28,6 @@ import { DashboardService } from './dashboard.service';
   styleUrl: './dashboard.component.scss',
   changeDetection: ChangeDetectionStrategy.OnPush,
   providers: [DashboardService],
-  standalone: true,
   imports: [
     RouterLink,
     MatButtonModule,

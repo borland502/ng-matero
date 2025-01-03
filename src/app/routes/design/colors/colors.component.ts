@@ -7,7 +7,6 @@ import { PageHeaderComponent, M3_COLORS } from '@shared';
   selector: 'app-design-colors',
   templateUrl: './colors.component.html',
   styleUrl: './colors.component.scss',
-  standalone: true,
   imports: [KeyValuePipe, PageHeaderComponent],
 })
 export class DesignColorsComponent implements OnInit {
